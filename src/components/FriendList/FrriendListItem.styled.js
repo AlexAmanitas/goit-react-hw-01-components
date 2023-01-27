@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const FriendsListElement = styled.li`
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-top: 10px;
+`;
+
 export const Status = styled.span`
   width: 15px;
   height: 15px;
